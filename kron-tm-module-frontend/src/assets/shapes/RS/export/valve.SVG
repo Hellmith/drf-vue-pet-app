@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="base.css" ?>
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1"  width="72" height="48" 
+		viewBox="0 0 72 48"  preserveAspectRatio="none" xml:space="preserve" id = "valve">
+		<title>Задвижка</title>
+	<defs>
+		<linearGradient id="valve-KeyGradient" gradientUnits="userSpaceOnUse" x1="0" y1="24" x2="0" y2="48">
+			<stop style="stop-opacity:1;stop-color:#918f90" offset="0" />
+			<stop style="stop-opacity:1;stop-color:#e3e2e2" offset="0.50" />
+			<stop style="stop-opacity:1;stop-color:#918f90" offset="1" />
+			</linearGradient>
+		 <linearGradient id="valve-KeyGradient2" gradientUnits="userSpaceOnUse" x1="24" y1="0" x2="48" y2="0">
+			<stop style="stop-opacity:1;stop-color:#918f90" offset="0.05" />
+			<stop style="stop-opacity:1;stop-color:#e3e2e2" offset="0.50" />
+			<stop style="stop-opacity:1;stop-color:#918f90" offset="0.95" />
+		</linearGradient>
+		<linearGradient id="valve-OilGradient" gradientUnits="userSpaceOnUse" x1="0" y1="24" x2="0" y2="48">
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="0" />
+			<stop style="stop-opacity:1;stop-color:grey" offset="0.5" />
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="1" />
+		 </linearGradient>
+		 <linearGradient id="valve-OilGradient2" gradientUnits="userSpaceOnUse" x1="24" y1="0" x2="48" y2="0">
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="0" />
+			<stop style="stop-opacity:1;stop-color:grey" offset="0.5" />
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="1" />
+		 </linearGradient>
+		 <linearGradient id="valve-CrashGradient" gradientUnits="userSpaceOnUse" x1="0" y1="24" x2="0" y2="48">
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="0" />
+			<stop style="stop-opacity:1;stop-color:red" offset="0.5" />
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="1" />
+		 </linearGradient>
+		 <linearGradient id="valve-CrashGradient2" gradientUnits="userSpaceOnUse" x1="24" y1="0" x2="48" y2="0">
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="0" />
+			<stop style="stop-opacity:1;stop-color:red" offset="0.5" />
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="1" />
+		 </linearGradient>
+		 <filter style="color-interpolation-filters:sRGB;" id="f-#4D4D4D">
+			<feColorMatrix type="luminanceToAlpha" result="result2" id="feColorMatrix5373" />
+			<feComposite in2="SourceGraphic" operator="arithmetic" in="result2" k3="2" result="result4" id="feComposite5375" />
+			<feBlend in="result4" mode="multiply" result="result3" in2="result2" id="feBlend5377" />
+			<feComposite in2="SourceGraphic" operator="in" in="result3" id="feComposite5379" />
+		 </filter>
+		 <filter style="color-interpolation-filters:sRGB;" id="f-green">
+			<feComposite in2="SourceGraphic" operator="arithmetic" k1="0" k2="1" result="composite1" id="feComposite5527" />
+			<feColorMatrix in="composite1" values="1" type="saturate" result="colormatrix1" id="feColorMatrix5529" />
+			<feFlood flood-opacity="0.768627" flood-color="rgb(35,234,39)" result="flood1" id="feFlood5531" />
+			<feBlend in="flood1" in2="colormatrix1" mode="multiply" result="blend1" id="feBlend5533" />
+			<feBlend in2="blend1" mode="screen" result="blend2" id="feBlend5535" />
+			<feColorMatrix in="blend2" values="1" type="saturate" result="colormatrix2" id="feColorMatrix5537" />
+			<feComposite in="colormatrix2" in2="SourceGraphic" operator="in" k2="1" result="composite2" id="feComposite5539" />
+		 </filter>
+		 <filter style="color-interpolation-filters:sRGB;" id="f-red">
+			<feComposite in2="SourceGraphic" operator="arithmetic" k1="0" k2="1" result="composite1" id="feComposite5543" />
+			<feColorMatrix in="composite1" values="1" type="saturate" result="colormatrix1" id="feColorMatrix5545" />
+			<feFlood flood-opacity="0.768627" flood-color="rgb(255,0,0)" result="flood1" id="feFlood5547" />
+			<feBlend in="flood1" in2="colormatrix1" mode="multiply" result="blend1" id="feBlend5549" />
+			<feBlend in2="blend1" mode="screen" result="blend2" id="feBlend5551" />
+			<feColorMatrix in="blend2" values="1" type="saturate" result="colormatrix2" id="feColorMatrix5553" />
+			<feComposite in="colormatrix2" in2="SourceGraphic" operator="in" k2="1" result="composite2" id="feComposite5555" />
+		 </filter>		 
+		 <filter style="color-interpolation-filters:sRGB;" id="f-yellow">
+			<feComposite in2="SourceGraphic" operator="arithmetic" k1="0" k2="1" result="composite1" id="feComposite5591" />
+			<feColorMatrix in="composite1" values="1" type="saturate" result="colormatrix1" id="feColorMatrix5593" />
+			<feFlood flood-opacity="1" flood-color="rgb(255,255,66)" result="flood1" id="feFlood5595" />
+			<feBlend in="flood1" in2="colormatrix1" mode="multiply" result="blend1" id="feBlend5597" />
+			<feBlend in2="blend1" mode="screen" result="blend2" id="feBlend5599" />
+			<feColorMatrix in="blend2" values="1" type="saturate" result="colormatrix2" id="feColorMatrix5601" />
+			<feComposite in="colormatrix2" in2="SourceGraphic" operator="in" k2="1" result="composite2" id="feComposite5603" />
+		 </filter>
+		 <rect id="valve-main0" y="20" width="72" height="24"  />
+		 <path id="valve-path0" d="M 24,0 v 24 Q 34 34 48 24 V 0 z" />
+		 <rect id="valve-main1" x="18" y="5"  width="36" height="8"  stroke="#918f90" />
+		 <rect id="valve-main2"        y="16" width="8"  height="32" stroke="#918f90" />
+		 <rect id="valve-main3" x="64" y="16" width="8"  height="32" stroke="#918f90" />
+		 <rect id="valve-main4" x="44" y="1" width="28"  height="3"  />
+	 </defs>
+	 <!-- style="filter:url(#f-yellow)" образец работы с цветом через фильтры -->
+	 <g class="state-0"  >   
+		<use href="#valve-main0" fill="url(#valve-KeyGradient)" />
+		<use href="#valve-path0" fill="url(#valve-KeyGradient2)" />
+		<use href="#valve-main1" fill="url(#valve-KeyGradient2)" />
+		<use href="#valve-main2" fill="url(#valve-KeyGradient)" />
+		<use href="#valve-main3" fill="url(#valve-KeyGradient)" />
+		<use href="#valve-main4" fill="url(#valve-KeyGradient2)" />
+	  </g>
+	<g class="state-1">
+		<use href="#valve-main0" fill="url(#valve-OilGradient)" />
+		<use href="#valve-path0" fill="url(#valve-OilGradient2)" />
+		<use href="#valve-main1" fill="url(#valve-OilGradient2)" />
+		<use href="#valve-main2" fill="url(#valve-OilGradient)" />
+		<use href="#valve-main3" fill="url(#valve-OilGradient)" />
+		<use href="#valve-main4" fill="url(#valve-OilGradient2)" />
+	</g>
+	<!-- <g class="state-2"  >   
+		<use href="#main0" fill="url(#valve-KeyGradient)" />
+		<use href="#path0" fill="url(#valve-KeyGradient2)" />
+		<use href="#main1" fill="url(#valve-KeyGradient2)" />
+		<use href="#main2" fill="url(#valve-KeyGradient)" />
+		<use href="#main3" fill="url(#valve-KeyGradient)" />
+		<use href="#main4" fill="url(#valve-KeyGradient2)" />
+	  </g> -->
+	  <g class="state-5" >   
+		<use href="#main0" fill="url(#valve-CrashGradient)" />
+		<use href="#path0" fill="url(#valve-CrashGradient2)" />
+		<use href="#main1" fill="url(#valve-CrashGradient2)" />
+		<use href="#main2" fill="url(#valve-CrashGradient)" />
+		<use href="#main3" fill="url(#valve-CrashGradient)" />
+		<use href="#main4" fill="url(#valve-CrashGradient2)" />
+	  </g>
+</svg>

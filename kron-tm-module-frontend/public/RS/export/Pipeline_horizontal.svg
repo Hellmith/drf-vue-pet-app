@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="120" height="24"  
+      viewBox="0 0 120 24" preserveAspectRatio="none"
+		>
+      <title>Горизонтальная труба</title>
+      <style>
+         /* Состояния.  */
+         .state-0 {
+             visibility: hidden;
+         }
+         .state-1 {
+             visibility: visible;
+         }
+         .state-2 {
+             visibility: hidden;
+         }
+         .state-3 {
+             visibility: hidden;
+         }
+         .state-4 {
+             visibility: hidden;
+         }
+         .state-5 {
+             visibility: hidden;
+         }
+         .state-6 {
+             visibility: hidden;
+         }
+         .state-7 {
+             visibility: hidden;
+         }
+         .state-8 {
+             visibility: hidden;
+         }
+         .state-9 {
+             visibility: hidden;
+         }
+         
+       </style>
+      <defs>
+        <symbol id = "pipeline_horizontal" >
+            <g class="state-0">
+                <use href="#ph-main" fill="url(#ph-KeyGradient)" />
+                <!-- <use href="#caption" /> -->
+             </g>
+             <g class="state-1" > 
+                <use href="#ph-main" fill="url(#ph-OilGradient)" />
+                <!-- <use href="#caption" /> -->
+             </g>
+            </symbol>
+              <linearGradient id="ph-KeyGradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="24">
+         <stop style="stop-opacity:1;stop-color:#918f90" offset="0" />
+         <stop style="stop-opacity:1;stop-color:#e3e2e2" offset="0.50" />
+         <stop style="stop-opacity:1;stop-color:#918f90" offset="1" />
+      </linearGradient>
+      <linearGradient id="ph-OilGradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="24">
+         <stop style="stop-opacity:1;stop-color:#4D4D4D" offset="0" />
+         <stop style="stop-opacity:1;stop-color:grey" offset="0.5" />
+         <stop style="stop-opacity:1;stop-color:#4D4D4D" offset="1" />
+      </linearGradient>
+      <rect id="ph-main" x="0" y="0" width="120" height="24">
+         <title> снова </title>
+      </rect>
+      <!-- <text id="caption" x="50%" y="50%" class= "f-small">  
+         Труба
+         <title> it's a text</title>
+      </text> -->
+   </defs>
+   
+</svg>

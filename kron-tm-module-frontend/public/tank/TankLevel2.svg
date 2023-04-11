@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400" height="200"  xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+        <linearGradient id="sharp_gradient_tank" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="200">
+          <stop stop-color="#EEEEEE" offset="0.3" />
+          <stop stop-color="gray" offset="0.7" />
+        </linearGradient>		
+		<linearGradient id="sharp_gradient_level" gradientUnits="userSpaceOnUse" x1="0" y1="150" x2="0" y2="200">
+          <stop stop-color="#481e02" offset="0.4" />
+          <stop stop-color="blue" offset="0.6" />
+        </linearGradient>		
+		<linearGradient id="sharp_gradient_level2" x1="0%" y1="0%" x2="0%" y2="100%">
+		  <stop stop-color="#481e02" offset="0.3" />
+		  <stop stop-color="brown" offset="0.4" />		  
+          <stop stop-color="blue" offset="0.6" />
+        </linearGradient>		
+		
+        <clipPath id="cut1">
+           <!--path d="M 40 10 H 360 A 40 90 0 0 1 360 190 H 40 A 40 90 0 0 1 40 10 Z" fill="#EEEEEE" /-->
+           <!--path d="M 40 0 H 360 A 40 100 0 0 1 360 200 H 40 A 40 100 0 0 1 40 0 Z" fill="#EEEEEE" /-->		   
+		   <path d="M 40 1 H 360 A 38 98 0 0 1 360 199 H 40 A 39 98 0 0 1 40 1 Z" fill="#EEEEEE" />		    
+        </clipPath>
+	</defs>
+
+	<!--clippath id="tank_cut">
+		<path d="M 40 10 H 360 A 40 90 0 0 1 360 190 H 40 A 40 90 0 0 1 40 10 Z" fill="#EEEEEE" />
+	</clippath-->
+    <!--rect id="temp" x="0" y="0" width="400" height="200" fill="red"/--> 			
+	<path id="tank" d="M 40 1 H 360 A 38 98 0 0 1 360 199 H 40 A 39 98 0 0 1 40 1 Z" fill="url(#sharp_gradient_tank)" stroke-width="1" stroke="black" height="200"/>    
+   <!--rect id="level" x="0" y="150" width="400" height="50" clip-path="url(#cut1)" fill="url(#sharp_gradient_level2)" style="stop-color:#9b6800;stop-opacity:1;"/--> 		
+	<!--text x="50" y="20" font-size="16" font-weight="bold" font-family="Arial">Tank1-Емкость</text-->  
+	<!--rect id="level_water" x="0" y="100" width="400" height="0" fill="blue" clip-path="url(#cut)" />	
+	<rect id="level_oil" x="0" y="50" width="400" height="0" fill="#481e02" clip-path="url(#cut)" /-->
+
+</svg>

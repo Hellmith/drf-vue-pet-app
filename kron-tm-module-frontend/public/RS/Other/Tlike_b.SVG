@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="..\css\base.css" ?>
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1"  width="72" height="48" viewBox="0 0 72 48" xml:space="preserve">
+	<defs>
+		<linearGradient id="KeyGradient" gradientUnits="userSpaceOnUse" x1="0" y1="24" x2="0" y2="48">
+			<stop style="stop-opacity:1;stop-color:#918f90" offset="0" />
+			<stop style="stop-opacity:1;stop-color:#e3e2e2" offset="0.50" />
+			<stop style="stop-opacity:1;stop-color:#918f90" offset="1" />
+			</linearGradient>
+		 <linearGradient id="KeyGradient2" gradientUnits="userSpaceOnUse" x1="24" y1="0" x2="48" y2="0">
+			<stop style="stop-opacity:1;stop-color:#918f90" offset="0.05" />
+			<stop style="stop-opacity:1;stop-color:#e3e2e2" offset="0.50" />
+			<stop style="stop-opacity:1;stop-color:#918f90" offset="0.95" />
+		</linearGradient>
+		<linearGradient id="OilGradient" gradientUnits="userSpaceOnUse" x1="0" y1="24" x2="0" y2="48">
+			<stop style="stop-opacity:1;stop-color:black" offset="0" />
+			<stop style="stop-opacity:1;stop-color:grey" offset="0.5" />
+			<stop style="stop-opacity:1;stop-color:black" offset="1" />
+		 </linearGradient>
+		 <linearGradient id="OilGradient2" gradientUnits="userSpaceOnUse" x1="24" y1="0" x2="48" y2="0">
+			<stop style="stop-opacity:1;stop-color:black" offset="0" />
+			<stop style="stop-opacity:1;stop-color:grey" offset="0.5" />
+			<stop style="stop-opacity:1;stop-color:black" offset="1" />
+		 </linearGradient>
+		 <rect id="main0" y="20" width="72" height="24" filter="hue-rotate(225deg)"  />
+		 <path id="path0" d="M 24,0 v 24 Q 34 34 48 24 V 0 z" />
+		 <rect id="main1" x="18" y="5"  width="36" height="8"  stroke="#918f90" />
+		 <rect id="main2"        y="16" width="8"  height="32" stroke="#918f90" />
+		 <rect id="main3" x="64" y="16" width="8"  height="32" stroke="#918f90" />
+		 <!-- <rect id="main4" x="44" y="1" width="28"  height="3"  />
+		 <filter id="filter1">
+			<feComponentTransfer>
+				<feFuncR type="table" tableValues="0.6 0.3 0.0"></feFuncR>
+				<feFuncG type="table" tableValues="0.6 0.3 0.0"></feFuncG>
+				<feFuncB type="table" tableValues="0.6 0.3 0.0"></feFuncB>
+			</feComponentTransfer>
+		 </filter> -->
+	 </defs>
+	<g class="status-0"> 
+		<use href="#main0" fill="url(#KeyGradient)" />
+		<use href="#path0" fill="url(#KeyGradient2)" />
+		<use href="#main1" fill="url(#KeyGradient2)" />
+		<use href="#main2" fill="url(#KeyGradient)" />
+		<use href="#main3" fill="url(#KeyGradient)" />
+		<use href="#main4" fill="url(#KeyGradient2)" />
+		<use href="#caption" />
+	  </g>
+	<g class="status-1" > <!-- visibility="hidden" filter="url(#filter1)"-->
+		<use href="#main0" fill="url(#OilGradient)" />
+		<use href="#path0" fill="url(#OilGradient2)" />
+		<use href="#main1" fill="url(#OilGradient2)" />
+		<use href="#main2" fill="url(#OilGradient)" />
+		<use href="#main3" fill="url(#OilGradient)" />
+		<use href="#main4" fill="url(#OilGradien2)" />
+		<use href="#caption" />
+	</g>
+</svg>

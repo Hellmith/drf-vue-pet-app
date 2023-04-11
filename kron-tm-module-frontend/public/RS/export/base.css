@@ -1,0 +1,49 @@
+.f-small {
+    font-family: Tahoma;
+    font-size:11; 
+    fill: rgb(35, 194, 223);
+    text-anchor: middle;
+}
+/* отображение  */
+.status-0 {
+    visibility: visible;
+}
+.status-1 {
+    visibility: hidden;
+}
+/* интерпретация состояния  */
+.interpreter {
+    fill: white;
+    visibility: visible;
+}
+/* Состояния.  */
+.state-0 {
+    visibility: visible;
+}
+.state-1 {
+    visibility: hidden;
+}
+.state-2 {
+    visibility: hidden;
+}
+.state-3 {
+    visibility: hidden;
+}
+.state-4 {
+    visibility: hidden;
+}
+.state-5 {
+    visibility: hidden;
+}
+.state-6 {
+    visibility: hidden;
+}
+.state-7 {
+    visibility: hidden;
+}
+.state-8 {
+    visibility: hidden;
+}
+.state-9 {
+    visibility: hidden;
+}

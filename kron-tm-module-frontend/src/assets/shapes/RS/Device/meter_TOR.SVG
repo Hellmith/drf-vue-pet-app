@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="..\css\base.css" ?>
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1"  width="52" height="88" 
+		viewBox="0 0 52 88"  preserveAspectRatio="none" xml:space="preserve">
+		<title>Счетчик ТОР</title>
+	<defs>
+		<linearGradient id="KeyGradient" gradientUnits="userSpaceOnUse" x1="0" y1="44" x2="0" y2="88">
+			<stop style="stop-opacity:1;stop-color:#918f90" offset="0" />
+			<stop style="stop-opacity:1;stop-color:#e3e2e2" offset="0.50" />
+			<stop style="stop-opacity:1;stop-color:#918f90" offset="1" />
+			</linearGradient>
+		 <linearGradient id="KeyGradient2" gradientUnits="userSpaceOnUse" x1="22" y1="0" x2="30" y2="0">
+			<stop style="stop-opacity:1;stop-color:#918f90" offset="0" />
+			<stop style="stop-opacity:1;stop-color:#e3e2e2" offset="0.50" />
+			<stop style="stop-opacity:1;stop-color:#918f90" offset="1" />
+		</linearGradient>
+		<linearGradient id="KeyGradient3" gradientUnits="userSpaceOnUse" x1="8" y1="0" x2="42" y2="0">
+			<stop style="stop-opacity:1;stop-color:#918f90" offset="0" />
+			<stop style="stop-opacity:1;stop-color:#e3e2e2" offset="0.50" />
+			<stop style="stop-opacity:1;stop-color:#918f90" offset="1" />
+		</linearGradient>
+		<linearGradient id="OilGradient" gradientUnits="userSpaceOnUse" x1="0" y1="44" x2="0" y2="88">
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="0" />
+			<stop style="stop-opacity:1;stop-color:grey" offset="0.5" />
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="1" />
+		 </linearGradient>
+		 <linearGradient id="OilGradient2" gradientUnits="userSpaceOnUse" x1="24" y1="0" x2="52" y2="0">
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="0" />
+			<stop style="stop-opacity:1;stop-color:grey" offset="0.5" />
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="1" />
+		 </linearGradient>
+		 <linearGradient id="CrashGradient" gradientUnits="userSpaceOnUse" x1="0" y1="24" x2="0" y2="48">
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="0" />
+			<stop style="stop-opacity:1;stop-color:red" offset="0.5" />
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="1" />
+		 </linearGradient>
+		 <linearGradient id="CrashGradient2" gradientUnits="userSpaceOnUse" x1="24" y1="0" x2="48" y2="0">
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="0" />
+			<stop style="stop-opacity:1;stop-color:red" offset="0.5" />
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="1" />
+		 </linearGradient>
+		 <rect id="main0" y="60" width="58" height="24"  />
+		 <path id="path0" d="M 22,40 V 60 C 24 63 28 63 30 60 V 40 z" />
+		 <rect id="main1" x="8" y="4"  width="36"  height="44" stroke="#918f90" />
+		 <rect id="main4" x="5" y="18" width="42"  height="8" stroke="#918f90" />
+		 <!-- <rect id="main1" x="18" y="5"  width="36" height="8"  stroke="#918f90" /> -->
+		 <!-- соединения -->
+		 <rect id="main2"        y="56" width="8"  height="32" stroke="#918f90" />
+		 <rect id="main3" x="44" y="56" width="8"  height="32" stroke="#918f90" />
+	 </defs>
+	 <!-- style="filter:url(#f-yellow)" образец работы с цветом через фильтры -->
+	 <g class="state-0"  >   
+		<use href="#main0" fill="url(#KeyGradient)" />
+		<use href="#path0" fill="url(#KeyGradient2)" />
+		<use href="#main1" fill="url(#KeyGradient3)" />
+		<use href="#main4" fill="url(#KeyGradient3)" />
+		<use href="#main2" fill="url(#KeyGradient)" />
+		<use href="#main3" fill="url(#KeyGradient)" />
+	  </g>
+	<g class="state-1">
+		<use href="#main0" fill="url(#OilGradient)" />
+		<use href="#path0" fill="url(#OilGradient2)" />
+		<use href="#main1" fill="url(#OilGradient2)" />
+		<use href="#main2" fill="url(#OilGradient)" />
+		<use href="#main3" fill="url(#OilGradient)" />
+	</g>
+	  <g class="state-5" >   
+		<use href="#main0" fill="url(#CrashGradient)" />
+		<use href="#path0" fill="url(#CrashGradient2)" />
+		<use href="#main1" fill="url(#CrashGradient2)" />
+		<use href="#main2" fill="url(#CrashGradient)" />
+		<use href="#main3" fill="url(#CrashGradient)" />
+	  </g>
+</svg>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg" version="1.1">
+	<defs>
+		<linearGradient id="sharp_gradient_tank" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="200">
+			<stop stop-color="#EEEEEE" offset="0.3"/>
+			<stop stop-color="gray" offset="0.7"/>
+		</linearGradient>
+		<linearGradient id="water_gradient_level" gradientUnits="userSpaceOnUse" x1="0" y1="150" x2="0" y2="200">
+			<stop stop-color="#481e02" offset="0.4"/>
+			<stop stop-color="blue" offset="0.6"/>
+		</linearGradient>
+		<linearGradient id="oil_gradient_level" x1="0%" y1="0%" x2="0%" y2="100%">
+			<stop stop-color="black" offset="0.7"/>
+			<stop stop-color="gray" offset="0.05"/>
+		</linearGradient>
+		<clipPath id="cut1">
+			<path d="M 40 1 H 360 A 38 98 0 0 1 360 199 H 40 A 39 98 0 0 1 40 1 Z" fill="#EEEEEE"/>
+		</clipPath>
+		<style type="text/css"> 
+rect {
+    stroke: #000;
+    stroke-width: 1;
+}
+
+line {
+    stroke: #000;
+    stroke-width: 1;
+}
+
+.ccs {
+    fill: #007FCE;
+    opacity: 0.2;
+}
+.table-caption {
+    fill: #efefef;
+}
+
+text.noedit {
+    font-size: 8pt;
+    fill: red;
+}
+
+text.nf {
+    font-size: 6pt;
+    cursor: default;
+}
+
+.ArrowR {
+    stroke: #000;
+    fill: none;
+    marker-end: url(#ArrowR)
+}
+
+</style></defs>
+	<path id="tank" d="M 40 1 H 360 A 38 98 0 0 1 360 199 H 40 A 39 98 0 0 1 40 1 Z" fill="url(#sharp_gradient_tank)" stroke-width="1" stroke="black" height="200"/>
+	<rect id="oil_level" x="0" y="150" width="400" height="50" clip-path="url(#cut1)" fill="black"/>
+	<rect id="water_level" x="0" y="130" width="400" height="20" clip-path="url(#cut1)" fill="blue"/>
+	<rect id="water_level" x="0" y="10" width="50" height="20" class="ccs"/>
+	<text x="50" y="20" font-size="16" font-weight="bold" font-family="Arial">Tank</text>
+</svg>

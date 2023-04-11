@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+	<div class="demo">
+		<div class="demo__content">
+			<object x="25" y="0" type="image/svg+xml" data="../shape/rect.svg?caption=odifgjef">
+				<!-- <param name="oil_level" value="11" /> -->
+			</object>
+
+
+			<object id="all2" type="image/svg+xml" data="all2.svg?oil_level=11">
+				<!-- <param name="oil_level" value="11" /> -->
+			</object>
+
+		</div>
+		<script>
+			var object = document.getElementById("all2");
+
+			// console.log(object.nodeType); // 1 => элемент
+
+			// и первый потомок...
+			console.log(object[0]); // 3 => текст
+
+// 	var style = svgDocument.getElementById("Definition");
+// 	console.log(style)
+// style.innerHTML = style.innerHTML.replace('22', '5');
+
+		</script>
+</body>
+
+</html>

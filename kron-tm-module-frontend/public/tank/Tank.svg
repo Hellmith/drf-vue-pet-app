@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="400" height="200"  xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+        <linearGradient id="sharp_gradient_tank" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="200">
+          <stop stop-color="gray" offset="0.3" />
+          <stop stop-color="silver" offset="0.7" />
+        </linearGradient>		
+		<linearGradient id="sharp_gradient_tank_side">
+          <stop stop-color="gray" offset="0.1" />
+          <stop stop-color="silver" offset="0.9" />
+        </linearGradient>		
+		<linearGradient id="sharp_gradient_level" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop stop-color="black" offset="0.2" />
+		  <stop stop-color="brown" offset="0.3" />		  
+          <stop stop-color="blue" offset="0.5" />
+        </linearGradient>		
+		
+		<linearGradient id="sharp_gradient_tank2" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop stop-color="black" offset="0.5" />
+          <stop stop-color="blue" offset="0.5" />
+        </linearGradient>		
+	</defs>
+
+    
+    <!--rect id="tank" x="0" y="0" width="400" height="200" fill="silver"  /-->	
+	<ellipse id="tank_left" rx="40" ry="100" cx="40" cy="100" fill="silver"/>	
+	<ellipse id="tank_right" rx="40" ry="100" cx="360" cy="100" fill="silver"/>	
+	<rect id="tank" x="40" y="0" width="320" height="200" fill="silver"/>
+    	    	
+	
+	<!--rect id="level" x="5" y="100" width="400" height="100" fill="url(#sharp_gradient_level)" fill-opacity="0.9"/-->			
+    <!--rect x="5" y="300" width="400" height="300" fill="url(#sharp_gradient_tank2)" /-->
+</svg>

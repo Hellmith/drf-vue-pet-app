@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="..\css\base.css" ?>
+
+<svg width="400" height="200" viewBox="0 0 400 200"  xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1"
+preserveAspectRatio="none">
+  <title>Емкость</title>
+  <defs  id = "defid">
+    <linearGradient id="KeyGradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="200">
+      <stop style="stop-opacity:1;stop-color:#e3e2e2" offset="0.50" />
+      <stop style="stop-opacity:1;stop-color:#868485" offset="0.9" />
+    </linearGradient>
+	<linearGradient id="KeyGradient2" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="200">
+		<stop style="stop-opacity:1;stop-color:#918f90" offset="0" />
+		<stop style="stop-opacity:1;stop-color:#e3e2e2" offset="0.70" />
+		<stop style="stop-opacity:1;stop-color:#918f90" offset="1" />
+	 </linearGradient>
+	 <linearGradient id="KeyGradient3" gradientUnits="userSpaceOnUse" x1="80" y1="0" x2="160" y2="0">
+		<stop style="stop-opacity:1;stop-color:#A8A8A8" offset="0" />
+		<stop style="stop-opacity:1;stop-color:#e3e2e2" offset="0.5" />
+		<stop style="stop-opacity:1;stop-color:#A8A8A8" offset="1" />
+	 </linearGradient>
+	<clipPath id="cut">
+      <path d="M 40 20 H 360 C 412 40, 412 160 360 180 H 40 C -12 160 -12 40 40 20 Z" />
+    </clipPath>
+    <!-- <clipPath id="cut">
+      <path d="M 40 20 H 360 A 38 98 0 0 1 360 170 H 40 A 40 98 0 0 1 40 1 Z" />
+    </clipPath> -->
+  </defs>
+
+  <rect x = "0%"   y="5%"  width="100%" height="85%" clip-path="url(#cut)" fill="url(#KeyGradient)" />
+
+  <rect x = "21%"   y="3%"  width="22%" height="15%" fill="url(#KeyGradient3)" />
+  <rect x = "22%"   y="0%"  width="20%" height="3%"  fill="black" />
+
+  <rect x = "11%"  y="4%"  width="6%"  height="87%" fill="url(#KeyGradient2)" />
+  <rect x = "47%"  y="4%"  width="6%"  height="87%" fill="url(#KeyGradient2)" />
+  <rect x = "80%"  y="4%"  width="6%"  height="87%" fill="url(#KeyGradient2)" />
+
+  <rect x = "12%"  y="4%"  width="4%"  height="87%" fill="#3D3D3D" />
+  <rect x = "48%"  y="4%"  width="4%"  height="87%" fill="#3D3D3D" />
+  <rect x = "81%"  y="4%"  width="4%"  height="87%" fill="#3D3D3D" />
+
+  <!-- <rect x = "6%"  y="91%" width="88%"  height="3%" fill="black" />
+  <rect x = "3%"  y="94%" width="94%"  height="3%" fill="black" />
+  <rect x = "0%"  y="97%" width="100%" height="3%" fill="black" /> -->
+  <rect x = "0%"  y="91%" width="100%" height="5%" fill="black" />
+</svg>

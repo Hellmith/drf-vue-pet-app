@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="..\css\base.css" ?>
+
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1"  width="48" height="24" viewBox="0 0 48 24"
+		preserveAspectRatio="none" xml:space="preserve" id = "check_valve">
+	<title>Обратный клапан</title>
+	<defs> 
+		<linearGradient id="cv-KeyGradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="24">
+			<stop style="stop-opacity:1;stop-color:#918f90" offset="0" />
+			<stop style="stop-opacity:1;stop-color:#e3e2e2" offset="0.50" />
+			<stop style="stop-opacity:1;stop-color:#918f90" offset="1" />
+		 </linearGradient>
+		<linearGradient id="cv-OilGradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="24">
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="0" />
+			<stop style="stop-opacity:1;stop-color:grey" offset="0.5" />
+			<stop style="stop-opacity:1;stop-color:#4D4D4D" offset="1" />
+		 </linearGradient>
+         <path id = "main" d="M 0,0 V 24 L 48 0 V 24 L 0 0 z"/>
+         </defs>
+<g class="state-0">   
+	<use href="#main" fill="url(#cv-KeyGradient)" />
+  </g>
+<g class="state-1">
+	<use href="#main" fill="url(#cv-OilGradient)" />
+</g>
+</svg>

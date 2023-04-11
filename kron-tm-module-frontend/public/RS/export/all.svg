@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120000" height="600"
+     font-family = "Tahoma" font-size="11">
+    <!-- <image id = "main" x="0" y="0" xlink:href="all2.svg"/> -->
+<defs>
+</defs>
+
+<text id="Label11" x="130" y="173" width = "108" fill="black" text-anchor="start">Моточасы, после ТО:</text> 
+<use href="#rect"  x="1094" y="78" width = "119" height = "63"/>
+<use href="#line"  x="1092" y="78" width = "93" height = "54"/>
+<use href="#circle"  x="1165" y="122" width = "48" height = "48"/>
+<text id="lblGasConcentrationSensor" x="130" y="95" width = "122" fill="black" text-anchor="start">Датчик загазованности:</text> 
+<text id="lblGasConcPercent" x="130" y="121" width = "122" fill="black" text-anchor="start">Загазованность, %:</text> 
+<text id="lblMachineHours" x="130" y="147" width = "122" fill="black" text-anchor="start">Моточасы:</text> 
+<text id="lblVacuumMode" x="435" y="69" width = "122" fill="black" text-anchor="start">Режим управления:</text> 
+<text id="lblVacuumState" x="435" y="95" width = "122" fill="black" text-anchor="start">Состояние установки:</text> 
+<text id="lblTemperatureAir" x="435" y="121" width = "122" fill="black" text-anchor="start">Температура воздуха:</text> 
+<text id="lblTemperatureVCM" x="435" y="147" width = "132" fill="black" text-anchor="start">Температура установки:</text> 
+<text id="lblEvent" x="130" y="199" width = "122" fill="black" text-anchor="start">Событие:</text> 
+<text id="lblFacilityName" x="130" y="69" width = "122" fill="black" text-anchor="start">Наименование:</text> 
+<use href="#indicator"  x="260" y="105" width = "48" height = "20"/>
+<use href="#indicator"  x="260" y="79" width = "48" height = "20"/>
+<use href="#indicator"  x="260" y="131" width = "48" height = "20"/>
+<use href="#state_interpreter"  x="566" y="53" width = "140" height = "20"/>
+<use href="#indicator"  x="260" y="157" width = "48" height = "20"/>
+<use href="#state_interpreter"  x="567" y="80" width = "140" height = "20"/>
+<use href="#indicator"  x="566" y="105" width = "48" height = "20"/>
+<use href="#indicator"  x="566" y="131" width = "48" height = "20"/>
+<text id="lblOut" x="7" y="287" width = "33" fill="black" text-anchor="start">Выход</text> 
+<text id="Label2" x="11" y="458" width = "25" fill="black" text-anchor="start">Вход</text> 
+<text id="Label1" x="49" y="488" width = "54" fill="black" text-anchor="start">Т газа вх:</text> 
+<text id="Label3" x="70" y="429" width = "20" fill="black" text-anchor="start">P1</text> 
+<text id="Label4" x="70" y="257" width = "20" fill="black" text-anchor="start">P4</text> 
+<text id="Label5" x="275" y="257" width = "20" fill="black" text-anchor="start">P3</text> 
+<text id="Label6" x="280" y="316" width = "62" fill="black" text-anchor="start">Т газа 2 ст:</text> 
+<text id="Label7" x="280" y="337" width = "62" fill="black" text-anchor="start">Т газа 3 ст:</text> 
+<text id="Label8" x="530" y="252" width = "52" fill="black" text-anchor="start">Т масла:</text> 
+<text id="Label9" x="530" y="483" width = "51" fill="black" text-anchor="start">Т масла:</text> 
+<text id="Label10" x="544" y="409" width = "63" fill="black" text-anchor="start">Т газа 1 ст:</text> 
+<use href="#valve"  x="190" y="253" width = "72" height = "48"/>
+<use xlink:href="Pipeline_horizontal.svg#pipeline_horizontal" x="74" y="273" width = "116" height = "24"/>
+<use href="#valve"  x="190" y="422" width = "72" height = "48"/>
+<!-- <use href="#pipeline_horizontal"  x="261" y="443" width = "342" height = "24"/> -->
+<use href="#pipeline_horizontal"  x="74" y="443" width = "116" height = "24"/>
+<use href="#pipeline_vertical"  x="609" y="301" width = "24" height = "136"/>
+<use href="#pipeline_90_rightup"  x="597" y="272" width = "36" height = "36"/>
+<use href="#pipeline_90_rightbottom"  x="597" y="431" width = "36" height = "36"/>
+<use href="#pipeline_horizontal"  x="261" y="272" width = "342" height = "24"/>
+<use href="#meter"  x="138" y="233" width = "50" height = "40"/>
+<use href="#indicator"  x="88" y="241" width = "48" height = "24"/>
+<use href="#meter"  x="341" y="233" width = "50" height = "40"/>
+<use href="#meter"  x="341" y="401" width = "50" height = "40"/>
+<use href="#meter"  x="138" y="401" width = "50" height = "40"/>
+<use href="#meter"  x="415" y="320" width = "40" height = "36"/>
+<use href="#meter"  x="479" y="333" width = "40" height = "36"/>
+<use href="#indicator"  x="88" y="413" width = "48" height = "24"/>
+<use href="#cool_pump"  x="428" y="241" width = "88" height = "75"/>
+<use href="#cool_pump"  x="428" y="415" width = "88" height = "75"/>
+<use href="#state_interpreter"  x="426" y="219" width = "90" height = "20"/>
+<use href="#state_interpreter"  x="426" y="491" width = "90" height = "20"/>
+<use href="#state_interpreter"  x="184" y="304" width = "88" height = "20"/>
+<use href="#state_interpreter"  x="184" y="473" width = "88" height = "20"/>
+<use href="#indicator"  x="293" y="413" width = "48" height = "24"/>
+<use href="#indicator"  x="293" y="241" width = "48" height = "24"/>
+<use href="#indicator"  x="412" y="366" width = "48" height = "18"/>
+<use href="#indicator"  x="471" y="381" width = "53" height = "18"/>
+<use href="#indicator"  x="530" y="219" width = "48" height = "20"/>
+<use href="#indicator"  x="530" y="491" width = "48" height = "20"/>
+<use href="#indicator"  x="346" y="323" width = "48" height = "20"/>
+<use href="#indicator"  x="346" y="301" width = "48" height = "20"/>
+<use href="#indicator"  x="105" y="473" width = "48" height = "20"/>
+<use href="#indicator"  x="551" y="413" width = "48" height = "20"/>
+<text id="Modern" x="494" y="431" width = "20" fill="black" text-anchor="start" font-size = "">1</text> 
+<text id="cxLabel1" x="495" y="257" width = "20" fill="black" text-anchor="start">2</text> 
+<text id="cxLabel3" x="405" y="395" width = "57" fill="black" text-anchor="start">P картера</text> 
+<text id="cxLabel4" x="472" y="409" width = "64" fill="black" text-anchor="start">P после ПК</text> 
+<text id="cxLabel2" x="275" y="429" width = "20" fill="black" text-anchor="start">P2</text> 
+<text id="lbl" x="661" y="231" width = "83" fill="black" text-anchor="start">Уровень масла:</text> 
+<text id="lblCondLevel" x="661" y="255" width = "110" fill="black" text-anchor="start">Уровень конденсата:</text> 
+<text id="lblPower" x="661" y="279" width = "99" fill="black" text-anchor="start">Наличие питания:</text> 
+<text id="lblGasHeater" x="661" y="303" width = "111" fill="black" text-anchor="start">Обогрев газ. линий:</text> 
+<text id="lblUVSHeater" x="661" y="327" width = "89" fill="black" text-anchor="start">Обогрев УВС:</text> 
+<text id="lblVenState" x="661" y="423" width = "103" fill="black" text-anchor="start">Вентиляция УВС:</text> 
+<text id="lblReleAlarm1" x="661" y="447" width = "123" fill="black" text-anchor="start">Реле защиты двиг К1:</text> 
+<text id="lblReleAlarm2" x="661" y="471" width = "123" fill="black" text-anchor="start">Реле защиты двиг К2:</text> 
+<text id="Label12" x="661" y="351" width = "125" fill="black" text-anchor="start">Авт.выкл. обогр.линии</text> 
+<text id="Label13" x="661" y="375" width = "122" fill="black" text-anchor="start">Авт.выкл. обогр.УВС</text> 
+<text id="Label14" x="661" y="399" width = "122" fill="black" text-anchor="start">Авт.выкл. вентиляции</text> 
+<use href="#state_interpreter"  x="792" y="241" width = "70" height = "20"/>
+<use href="#state_interpreter"  x="792" y="217" width = "70" height = "20"/>
+<use href="#state_interpreter"  x="792" y="265" width = "70" height = "20"/>
+<use href="#state_interpreter"  x="792" y="289" width = "70" height = "20"/>
+<use href="#state_interpreter"  x="792" y="313" width = "70" height = "20"/>
+<use href="#state_interpreter"  x="792" y="337" width = "70" height = "20"/>
+<use href="#state_interpreter"  x="792" y="361" width = "70" height = "20"/>
+<use href="#state_interpreter"  x="792" y="385" width = "70" height = "20"/>
+<use href="#state_interpreter"  x="792" y="409" width = "70" height = "20"/>
+<use href="#state_interpreter"  x="792" y="433" width = "70" height = "20"/>
+<use href="#state_interpreter"  x="792" y="457" width = "70" height = "20"/>
+<use href="#indicator"  x="978" y="235" width = "50" height = "20"/>
+<use href="#indicator"  x="978" y="259" width = "50" height = "20"/>
+<use href="#indicator"  x="978" y="283" width = "50" height = "20"/>
+<text id="cxLabel5" x="889" y="226" width = "80" fill="black" text-anchor="start">Двигатель 1</text> 
+<text id="cxLabel7" x="894" y="249" width = "80" fill="black" text-anchor="start">Ток фаза А:</text> 
+<text id="cxLabel8" x="894" y="273" width = "80" fill="black" text-anchor="start">Ток фаза B:</text> 
+<text id="cxLabel11" x="894" y="297" width = "80" fill="black" text-anchor="start">Ток фаза C:</text> 
+<use href="#indicator"  x="978" y="339" width = "50" height = "20"/>
+<use href="#indicator"  x="978" y="363" width = "50" height = "20"/>
+<use href="#indicator"  x="978" y="387" width = "50" height = "20"/>
+<text id="cxLabel6" x="892" y="330" width = "80" fill="black" text-anchor="start">Двигатель 2</text> 
+<text id="cxLabel9" x="894" y="353" width = "80" fill="black" text-anchor="start">Ток фаза А:</text> 
+<text id="cxLabel10" x="894" y="377" width = "80" fill="black" text-anchor="start">Ток фаза B:</text> 
+<text id="cxLabel12" x="894" y="401" width = "80" fill="black" text-anchor="start">Ток фаза C:</text> 
+
+    <!-- <script>
+		/** When the document is ready, this self-executing function will be run. **/
+		(function() {
+
+var ajax = new XMLHttpRequest();
+var ajax2 = new XMLHttpRequest();
+var ajax3 = new XMLHttpRequest();
+var ajax4 = new XMLHttpRequest();
+var ajax5 = new XMLHttpRequest();
+var ajax6 = new XMLHttpRequest();
+var ajax7 = new XMLHttpRequest();
+var ajax8 = new XMLHttpRequest();
+var ajax9 = new XMLHttpRequest();
+
+ajax9.open("GET", "pipeline_90_rightbottom.svg", true);
+ajax9.send();
+ajax8.open("GET", "pipeline_90_rightup.svg", true);
+ajax8.send();
+ajax7.open("GET", "indicator.svg", true);
+ajax7.send();
+ajax6.open("GET", "state_intepreter.svg", true);
+ajax6.send();
+ajax5.open("GET", "meter.svg", true);
+ajax5.send();
+ajax4.open("GET", "cool_pump.svg", true);
+ajax4.send();
+ajax3.open("GET", "valve.svg", true);
+ajax3.send();
+ajax2.open("GET", "pipeline_horizontal.svg", true);
+ajax2.send();
+ajax.open("GET", "pipeline_vertical.svg", true);
+ajax.send();
+
+/**
+ * Append the external SVG to this very SVG.
+ *
+ * Notice the use of an SVG selector on the document derived from the AJAX result.
+ *  This is because the full cannot be included directly into the SVG.
+ *  Trying to include to do so would result in:
+ *      `HierarchyRequestError: Node cannot be inserted at the specified point in the hierarchy` in Firefox;
+ *      `Nodes of type '#document' may not be inserted inside nodes of type 'svg'.` in Chrome.
+ */
+ajax.onload = 
+function(e) {
+	var parser = new DOMParser();
+    var ajaxdoc = parser.parseFromString( ajax.responseText, "image/svg+xml" );
+    console.log(document.getElementsByTagName('defs')[0] )
+	console.log(ajaxdoc )
+	console.log(ajaxdoc.getElementsByTagName('svg')[0] )
+	document.getElementsByTagName('defs')[0].appendChild( ajaxdoc.getElementsByTagName('svg')[0] );
+}
+ajax2.onload = 
+function(e) {
+	var parser = new DOMParser();
+    var ajaxdoc = parser.parseFromString( ajax2.responseText, "image/svg+xml" );
+    console.log(document.getElementsByTagName('defs')[0] )
+	console.log(ajaxdoc )
+	console.log(ajaxdoc.getElementsByTagName('svg')[0] )
+	document.getElementsByTagName('defs')[0].appendChild( ajaxdoc.getElementsByTagName('svg')[0] );
+}
+ajax3.onload = 
+function(e) {
+	var parser = new DOMParser();
+    var ajaxdoc = parser.parseFromString( ajax3.responseText, "image/svg+xml" );
+    console.log(document.getElementsByTagName('defs')[0] )
+	console.log(ajaxdoc )
+	console.log(ajaxdoc.getElementsByTagName('svg')[0] )
+	document.getElementsByTagName('defs')[0].appendChild( ajaxdoc.getElementsByTagName('svg')[0] );
+}
+ajax4.onload = 
+function(e) {
+	var parser = new DOMParser();
+    var ajaxdoc = parser.parseFromString( ajax4.responseText, "image/svg+xml" );
+    console.log(document.getElementsByTagName('defs')[0] )
+	console.log(ajaxdoc )
+	console.log(ajaxdoc.getElementsByTagName('svg')[0] )
+	document.getElementsByTagName('defs')[0].appendChild( ajaxdoc.getElementsByTagName('svg')[0] );
+}
+ajax5.onload = 
+function(e) {
+	var parser = new DOMParser();
+    var ajaxdoc = parser.parseFromString( ajax5.responseText, "image/svg+xml" );
+    console.log(document.getElementsByTagName('defs')[0] )
+	console.log(ajaxdoc )
+	console.log(ajaxdoc.getElementsByTagName('svg')[0] )
+	document.getElementsByTagName('defs')[0].appendChild( ajaxdoc.getElementsByTagName('svg')[0] );
+}
+ajax6.onload = 
+function(e) {
+	var parser = new DOMParser();
+    var ajaxdoc = parser.parseFromString( ajax6.responseText, "image/svg+xml" );
+    console.log(document.getElementsByTagName('defs')[0] )
+	console.log(ajaxdoc )
+	console.log(ajaxdoc.getElementsByTagName('svg')[0] )
+	document.getElementsByTagName('defs')[0].appendChild( ajaxdoc.getElementsByTagName('svg')[0] );
+}
+ajax7.onload = 
+function(e) {
+	var parser = new DOMParser();
+    var ajaxdoc = parser.parseFromString( ajax7.responseText, "image/svg+xml" );
+    console.log(document.getElementsByTagName('defs')[0] )
+	console.log(ajaxdoc )
+	console.log(ajaxdoc.getElementsByTagName('svg')[0] )
+	document.getElementsByTagName('defs')[0].appendChild( ajaxdoc.getElementsByTagName('svg')[0] );
+}
+ajax8.onload = 
+function(e) {
+	var parser = new DOMParser();
+    var ajaxdoc = parser.parseFromString( ajax8.responseText, "image/svg+xml" );
+    console.log(document.getElementsByTagName('defs')[0] )
+	console.log(ajaxdoc )
+	console.log(ajaxdoc.getElementsByTagName('svg')[0] )
+	document.getElementsByTagName('defs')[0].appendChild( ajaxdoc.getElementsByTagName('svg')[0] );
+}
+ajax9.onload = 
+function(e) {
+	var parser = new DOMParser();
+    var ajaxdoc = parser.parseFromString( ajax9.responseText, "image/svg+xml" );
+    console.log(document.getElementsByTagName('defs')[0] )
+	console.log(ajaxdoc )
+	console.log(ajaxdoc.getElementsByTagName('svg')[0] )
+	document.getElementsByTagName('defs')[0].appendChild( ajaxdoc.getElementsByTagName('svg')[0] );
+}
+
+})();   /* END (anonymous function) */
+	</script> 
+	 -->
+
+</svg>
